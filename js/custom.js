@@ -7,7 +7,7 @@ $(document).ready(function () {
   $(".hero_banner").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: false,
+    dots: true,
     arrows: false,
     centerMode: false,
     focusOnSelect: true,
@@ -24,6 +24,7 @@ $(document).ready(function () {
       },
     ],
   });
+
   $(".testimonial_list").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
