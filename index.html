@@ -1,9 +1,1847 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="Images/smile.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container_fluid">
+        <div class="header_content">
+          <div class="logo">furniture</div>
+          <nav class="navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header_icon">
+            <svg
+              width="25"
+              height="20"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#000"
+                d="M9.993 10.573a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M10 0a6 6 0 0 1 3.04 11.174c3.688 1.11 6.458 4.218 6.955 8.078.047.367-.226.7-.61.745-.383.045-.733-.215-.78-.582-.54-4.19-4.169-7.345-8.57-7.345-4.425 0-8.101 3.161-8.64 7.345-.047.367-.397.627-.78.582-.384-.045-.657-.378-.61-.745.496-3.844 3.281-6.948 6.975-8.068A6 6 0 0 1 10 0"
+              />
+            </svg>
+            <div class="wishlist">
+              <span>0</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 1024 1024"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#000"
+                ;
+              >
+                <path
+                  d="M287.984 114.16c31.376 0 88.094 15.008 180.094 105.616l45.616 44.912 44.928-45.632c63.872-64.896 131.84-105.2 177.376-105.2 61.408 0 109.809 21.008 157.009 68.096 44.464 44.368 68.992 103.36 68.992 166.112.032 62.784-24.448 121.824-69.408 166.672-3.664 3.712-196.992 212.304-358.96 387.104-7.632 7.248-16.352 8.32-20.991 8.32-4.576 0-13.2-1.024-20.8-8.096-39.472-43.905-325.552-362-358.815-395.232C88.497 462.416 64 403.376 64 340.608c.015-62.752 24.511-121.728 69.04-166.144 43.295-43.264 93.984-60.304 154.944-60.304m-.002-64c-76.528 0-144 22.895-200.176 79.008-117.072 116.768-117.072 306.128 0 422.96 33.424 33.44 357.855 394.337 357.855 394.337 18.48 18.496 42.753 27.68 66.96 27.68 24.225 0 48.4-9.184 66.912-27.68 0 0 354.88-383.024 358.656-386.85 117.04-116.88 117.04-306.24 0-423.007-58.112-58-123.024-86.784-202.208-86.784-75.648 0-160 60.32-223.008 124.32C447.981 110.159 366.237 50.16 287.981 50.16z"
+                />
+              </svg>
+            </div>
+            <div class="cart">
+              <span>0</span>
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.832 4.387h.511c.86 0 1.618.56 1.87 1.381l3.065 9.958a1.96 1.96 0 0 0 1.87 1.381h6.963c.826 0 1.563-.518 1.842-1.295l2.04-5.68c.686-1.913-.731-3.928-2.763-3.928h-7.57"
+                  stroke="#000"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                />
+                <circle cx="10.171" cy="20.532" r="1.468" fill="#000" />
+                <circle cx="17.02" cy="20.532" r="1.468" fill="#000" />
+              </svg>
+            </div>
+          </div>
+          <div class="mobile_nav">
+            <div class="toggle_icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navbar-nav">
+              <div class="logo">fashion</div>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <div class="hero_banner">
+      <div class="hero_content">
+        <img src="images/01.jpeg" alt="" />
+        <div class="hero_innerContent">
+          <span class="subHeading">Modern Living Room</span>
+          <h1 class="hero_title">DECORATE YOUR ROOM</h1>
+          <button class="hero_btn customBtn">Shop Now</button>
+        </div>
+      </div>
+      <div class="hero_content">
+        <img src="images/01.jpeg" alt="" />
+        <div class="hero_innerContent">
+          <span class="subHeading">Modern Living Room</span>
+          <h1 class="hero_title">DECORATE YOUR ROOM</h1>
+          <button class="hero_btn customBtn">Shop Now</button>
+        </div>
+      </div>
+      <div class="hero_content">
+        <img src="images/01.jpeg" alt="" />
+        <div class="hero_innerContent">
+          <span class="subHeading">Modern Living Room</span>
+          <h1 class="hero_title">DECORATE YOUR ROOM</h1>
+          <button class="hero_btn customBtn">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- Hero section -->
+    <div class="furniture_icon">
+      <ul class="flex">
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon1.png" alt="" />
+          </div>
+        </li>
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon2.png" alt="" />
+          </div>
+        </li>
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon3.png" alt="" />
+          </div>
+        </li>
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon4.png" alt="" />
+          </div>
+        </li>
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon5.png" alt="" />
+          </div>
+        </li>
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon6.png" alt="" />
+          </div>
+        </li>
+        <li class="flex1">
+          <div class="furniture_wrap">
+            <img src="images/icon7.png" alt="" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Trending Section -->
+    <div class="TrendingProduct_outer">
+      <div class="container_fluid">
+        <div class="mainContent_header space_xy text_center">
+          <h2 class="main_heading">Trending this Week</h2>
+          <p class="main_para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="TrendingProduct_list flex">
+          <div class="TrendingProduct_items TrendingProduct_items1 flex1">
+            <div class="TrendingProduct_wrap">
+              <img src="Images/bag.jpeg" alt="" loading="lazy" />
+
+              <div class="TrendingProduct_content">
+                <div class="subHeading">online exclusive</div>
+                <h2>Oversized Shirt</h2>
+                <a class="customBtn">Click Here</a>
+              </div>
+            </div>
+          </div>
+          <div class="TrendingProduct_items TrendingProduct_items2 flex1">
+            <div class="TrendingProduct_wrap">
+              <img src="Images/bag8.jpeg" alt="" loading="lazy" />
+
+              <div class="TrendingProduct_content">
+                <div class="subHeading">best seller</div>
+                <h2>uniqe bag</h2>
+                <a class="customBtn">Click Here</a>
+              </div>
+            </div>
+          </div>
+          <div class="TrendingProduct_items TrendingProduct_items3 flex1">
+            <div class="TrendingProduct_wrap">
+              <img src="Images/bag1.jpeg" alt="" loading="lazy" />
+
+              <div class="TrendingProduct_content">
+                <div class="subHeading">limited adition</div>
+                <h2>autumn trending</h2>
+                <a class="customBtn">Click Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- newProduct Section -->
+    <div class="newProduct_outer">
+      <div class="container_fluid">
+        <div class="mainContent_header space_xy text_center">
+          <h2 class="main_heading">New Arrivals</h2>
+          <p class="main_para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="products_list">
+          <div class="products_items">
+            <div class="products_content">
+              <div class="product_wrapper">
+                <div class="discount_badge">-20%</div>
+                <img src="Images/bag1.jpeg" alt="" loading="lazy" />
+              </div>
+              <div class="product_innerContent">
+                <h3 class="products_title">Heading for product</h3>
+                <ul class="products_review">
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                </ul>
+                <div class="price">
+                  <span class="main_price">$116.00</span>
+                  <span class="price_discount">$120.00</span>
+                </div>
+                <div class="colorSwatches">
+                  <span class="color color1"></span>
+                  <span class="color color2"></span>
+                  <span class="color color3"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products_items">
+            <div class="products_content">
+              <div class="product_wrapper">
+                <img src="Images/bag2.jpeg" alt="" loading="lazy" />
+              </div>
+              <div class="product_innerContent">
+                <h3 class="products_title">Heading for product</h3>
+                <ul class="products_review">
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                </ul>
+                <div class="price">
+                  <span class="main_price">$116.00</span>
+                  <span class="price_discount">$120.00</span>
+                </div>
+                <div class="colorSwatches">
+                  <span class="color color4"></span>
+                  <span class="color color5"></span>
+                  <span class="color color1"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products_items">
+            <div class="products_content">
+              <div class="product_wrapper">
+                <div class="discount_badge">-20%</div>
+                <img src="Images/bag3.jpeg" alt="" loading="lazy" />
+              </div>
+              <div class="product_innerContent">
+                <h3 class="products_title">Heading for product</h3>
+                <ul class="products_review">
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                </ul>
+                <div class="price">
+                  <span class="main_price">$116.00</span>
+                  <span class="price_discount">$120.00</span>
+                </div>
+                <div class="colorSwatches">
+                  <span class="color color6"></span>
+                  <span class="color color1"></span>
+                  <span class="color color4"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products_items">
+            <div class="products_content">
+              <div class="product_wrapper">
+                <img src="Images/bag5.jpeg" alt="" loading="lazy" />
+              </div>
+              <div class="product_innerContent">
+                <h3 class="products_title">Heading for product</h3>
+                <ul class="products_review">
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                </ul>
+                <div class="price">
+                  <span class="main_price">$116.00</span>
+                  <span class="price_discount">$120.00</span>
+                </div>
+                <div class="colorSwatches">
+                  <span class="color color5"></span>
+                  <span class="color color2"></span>
+                  <span class="color color4"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products_items">
+            <div class="products_content">
+              <div class="product_wrapper">
+                <img src="Images/bag7.jpeg" alt="" loading="lazy" />
+              </div>
+              <div class="product_innerContent">
+                <h3 class="products_title">Heading for product</h3>
+                <ul class="products_review">
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                </ul>
+                <div class="price">
+                  <span class="main_price">$116.00</span>
+                  <span class="price_discount">$120.00</span>
+                </div>
+                <div class="colorSwatches">
+                  <span class="color color5"></span>
+                  <span class="color color2"></span>
+                  <span class="color color4"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products_items">
+            <div class="products_content">
+              <div class="product_wrapper">
+                <img src="Images/bag6.jpeg" alt="" loading="lazy" />
+              </div>
+              <div class="product_innerContent">
+                <h3 class="products_title">Heading for product</h3>
+                <ul class="products_review">
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg
+                      width="80"
+                      height="80"
+                      viewBox="0 0 24 24"
+                      data-name="Line Color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon line-color"
+                    >
+                      <path
+                        style="
+                          fill: none;
+                          stroke: #000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2;
+                        "
+                        d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                      />
+                    </svg>
+                  </li>
+                </ul>
+                <div class="price">
+                  <span class="main_price">$116.00</span>
+                  <span class="price_discount">$120.00</span>
+                </div>
+                <div class="colorSwatches">
+                  <span class="color color5"></span>
+                  <span class="color color2"></span>
+                  <span class="color color4"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Section -->
+    <div class="feature_outer">
+      <div class="container">
+        <div class="mainContent_header space_xy text_center">
+          <h2 class="main_heading">Featured Collections</h2>
+          <p class="main_para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="feature_list">
+          <div class="feature_items feature_items1">
+            <div class="feature_content">
+              <button class="feature_btn customBtn">Click Here</button>
+            </div>
+          </div>
+          <div class="feature_items feature_items2">
+            <div class="feature_content">
+              <button class="feature_btn customBtn">Click Here</button>
+            </div>
+          </div>
+          <div class="feature_items feature_items3">
+            <div class="feature_content">
+              <button class="feature_btn customBtn">Click Here</button>
+            </div>
+          </div>
+          <div class="feature_items feature_items4">
+            <div class="feature_content">
+              <button class="feature_btn customBtn">Click Here</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Section -->
+    <div class="testimonial_outer">
+      <div class="container">
+        <div class="mainContent_header space_xy text_center">
+          <h2 class="main_heading">Customer Say!</h2>
+          <p class="main_para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="testimonial_list">
+          <div class="testimonial_item">
+            <div class="testimonial_content">
+              <div class="testimonial_wrapper">
+                <img src="Images/smile.svg" alt="" loading="lazy" />
+              </div>
+              <p class="testimonial_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis doloremque molestiae ducimus, sit at illo delectus
+                minima necessitatibus facere.
+              </p>
+              <ul class="products_review">
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+              </ul>
+              <div class="testimonial_person">
+                Siarhei Dzenisenka - Verified Buyer
+              </div>
+            </div>
+          </div>
+          <div class="testimonial_item">
+            <div class="testimonial_content">
+              <div class="testimonial_wrapper">
+                <img src="Images/smile.svg" alt="" loading="lazy" />
+              </div>
+              <p class="testimonial_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis doloremque molestiae ducimus, sit at illo delectus
+                minima necessitatibus facere.
+              </p>
+              <ul class="products_review">
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+              </ul>
+              <div class="testimonial_person">
+                Siarhei Dzenisenka - Verified Buyer
+              </div>
+            </div>
+          </div>
+          <div class="testimonial_item">
+            <div class="testimonial_content">
+              <div class="testimonial_wrapper">
+                <img src="Images/smile.svg" alt="" loading="lazy" />
+              </div>
+              <p class="testimonial_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis doloremque molestiae ducimus, sit at illo delectus
+                minima necessitatibus facere.
+              </p>
+              <ul class="products_review">
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+              </ul>
+              <div class="testimonial_person">
+                Siarhei Dzenisenka - Verified Buyer
+              </div>
+            </div>
+          </div>
+          <div class="testimonial_item">
+            <div class="testimonial_content">
+              <div class="testimonial_wrapper">
+                <img src="Images/smile.svg" alt="" loading="lazy" />
+              </div>
+              <p class="testimonial_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis doloremque molestiae ducimus, sit at illo delectus
+                minima necessitatibus facere.
+              </p>
+              <ul class="products_review">
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+              </ul>
+              <div class="testimonial_person">
+                Siarhei Dzenisenka - Verified Buyer
+              </div>
+            </div>
+          </div>
+          <div class="testimonial_item">
+            <div class="testimonial_content">
+              <div class="testimonial_wrapper">
+                <img src="Images/smile.svg" alt="" loading="lazy" />
+              </div>
+              <p class="testimonial_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis doloremque molestiae ducimus, sit at illo delectus
+                minima necessitatibus facere.
+              </p>
+              <ul class="products_review">
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+              </ul>
+              <div class="testimonial_person">
+                Siarhei Dzenisenka - Verified Buyer
+              </div>
+            </div>
+          </div>
+          <div class="testimonial_item">
+            <div class="testimonial_content">
+              <div class="testimonial_wrapper">
+                <img src="Images/smile.svg" alt="" loading="lazy" />
+              </div>
+              <p class="testimonial_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis doloremque molestiae ducimus, sit at illo delectus
+                minima necessitatibus facere.
+              </p>
+              <ul class="products_review">
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    width="80"
+                    height="80"
+                    viewBox="0 0 24 24"
+                    data-name="Line Color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line-color"
+                  >
+                    <path
+                      style="
+                        fill: none;
+                        stroke: #000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2;
+                      "
+                      d="M12 4 9.22 9.27 3 10.11l4.5 4.1L6.44 20 12 17.27 17.56 20l-1.06-5.79 4.5-4.1-6.22-.84z"
+                    />
+                  </svg>
+                </li>
+              </ul>
+              <div class="testimonial_person">
+                Siarhei Dzenisenka - Verified Buyer
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer_list flex">
+          <div class="footer_item flex1">
+            <div class="footer_dis">
+              <div class="logo">fashion</div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                debitis praesentium aliquam, eos delectus cupiditate.
+              </p>
+            </div>
+          </div>
+          <div class="footer_item flex1">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="">Our Stores</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer_item flex1">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Refund Policy</a></li>
+              <li><a href="">Shipping & Return</a></li>
+              <li><a href="">Term & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer_item flex1">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Refund Policy</a></li>
+              <li><a href="">Shipping & Return</a></li>
+              <li><a href="">Term & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <p>© 2024 fashion Store. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
