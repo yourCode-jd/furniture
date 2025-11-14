@@ -1,15 +1,15 @@
 :root {
-  --white-color: #ffffff;
-  --black-color: #000000cc;
+  --white-color: #fff;
+  --black-color: #000 cc;
   --bg-color: #fafafa;
   --grey-color: #808080;
   --red-color: #dd3327;
-  --blue-100-color: rgb(63, 138, 209);
-  --yellow-100-color: rgb(245, 245, 220);
-  --pink-100-color: rgb(252, 209, 219);
-  --brown-100-color: rgb(226, 194, 143);
-  --green-100-color: rgb(122, 189, 181);
-  --black-100-color: #333333;
+  --blue-100-color: #3f8ad1;
+  --yellow-100-color: #f5f5dc;
+  --pink-100-color: #fcd1db;
+  --brown-100-color: #e2c28f;
+  --green-100-color: #7abdb5;
+  --black-100-color: #333;
   --poppins_font: "Poppins", sans-serif;
   --Montserrat_font: "Montserrat", sans-serif;
 }
@@ -115,16 +115,15 @@ ul {
 }
 
 .slick-dots li button:before {
-  color: #ffffff;
+  color: #fff;
 }
 
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
-  color: #ffffff;
+  color: #fff;
 }
 
-/*  */
-
+/* */
 .main_heading {
   font-size: 48px;
   font-weight: 600;
@@ -157,13 +156,12 @@ ul {
 }
 
 /* Header */
-
 header {
   position: relative;
   top: 0;
   width: 100%;
   z-index: 3;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .nav_open {
@@ -191,8 +189,10 @@ header {
 
 .header_content>div {
   flex: 1;
+}
 
-  @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+  .header_content>div {
     flex: unset;
   }
 }
@@ -209,7 +209,6 @@ header {
   padding: 0;
   margin: 0;
 }
-
 
 nav.navbar {
   order: -1;
@@ -276,13 +275,14 @@ nav.navbar {
 }
 
 /* Hero Section */
-
 .hero_content {
   position: relative;
   height: 800px;
   overflow: hidden;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .hero_content {
     height: 500px;
   }
 }
@@ -293,7 +293,7 @@ nav.navbar {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0 0 0 / 10%);
+  background: #000;
 }
 
 .header_icon svg {
@@ -313,7 +313,7 @@ nav.navbar {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0 0 0 / 60%);
+  background: #000;
   z-index: 0;
 }
 
@@ -355,13 +355,14 @@ nav.navbar {
 }
 
 /* furniture */
-
 .furniture_wrap {
   width: 50px;
   overflow: hidden;
   margin: 0 auto;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .furniture_wrap {
     width: 40px;
   }
 }
@@ -375,8 +376,10 @@ nav.navbar {
   padding: 40px 10px;
   border-right: 0;
   border-left: 0;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .furniture_icon ul li {
     flex: 25%;
     padding: 20px 10px;
   }
@@ -398,10 +401,8 @@ nav.navbar {
   text-transform: capitalize;
 }
 
-/*  */
-
-/* trending  */
-
+/* */
+/* trending */
 .trendingProduct_list {
   justify-content: center;
 }
@@ -411,10 +412,8 @@ nav.navbar {
   max-width: calc(33.3% - 13px);
 }
 
-/*  */
-
+/* */
 /* Feature */
-
 .feature_list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -440,19 +439,19 @@ nav.navbar {
 }
 
 .feature_items1 {
-  grid-area: 1 / 1 / 3 / 2;
+  grid-area: 0.1666666667;
 }
 
 .feature_items2 {
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 0.0833333333;
 }
 
 .feature_items3 {
-  grid-area: 1 / 3 / 3 / 4;
+  grid-area: 0.0277777778;
 }
 
 .feature_items4 {
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 0.1111111111;
 }
 
 .products_list .slick-slide>div,
@@ -474,8 +473,10 @@ nav.navbar {
   justify-content: flex-end;
   filter: grayscale(1);
   transition: all 0.5s ease;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .feature_content {
     min-height: 250px;
   }
 }
@@ -587,8 +588,10 @@ nav.navbar {
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .trendingProduct_wrap {
     height: 250px;
   }
 }
@@ -665,8 +668,10 @@ footer {
   background: #333;
   padding-block: 60px 0;
   margin-top: 100px;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  footer {
     margin-top: 40px;
   }
 }
@@ -726,7 +731,7 @@ footer {
 .footer_bottom {
   text-align: center;
   margin-top: 50px;
-  border-top: 1px solid #ffffff1c;
+  border-top: 1px solid #fff 1c;
 }
 
 .footer_bottom p {
@@ -747,7 +752,7 @@ footer {
   header {
     position: relative;
     backdrop-filter: unset;
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 15px 0;
   }
 
@@ -781,7 +786,7 @@ footer {
   .toggle_icon span {
     width: 100%;
     height: 2px;
-    background: #000000;
+    background: #000;
     display: inline-block;
     transition: all 0.5s ease;
   }
@@ -810,7 +815,7 @@ footer {
     flex-direction: column;
     position: absolute;
     left: -100%;
-    background: rgb(189 189 189 / 60%);
+    background: #000;
     padding: 0;
     min-width: 300px;
     align-items: flex-start;
@@ -831,7 +836,7 @@ footer {
   .nav-link {
     padding: 20px;
     display: block;
-    border-bottom: 1px solid rgb(255 255 255 / 10%);
+    border-bottom: 1px solid #000;
   }
 
   .mobile_nav ul li.nav-item {
@@ -983,5 +988,4 @@ footer {
     bottom: 30px;
     left: 30px;
   }
-
 }
