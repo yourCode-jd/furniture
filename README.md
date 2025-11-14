@@ -8,7 +8,7 @@ Minimal layout focused on lifestyle photography, responsive cards and a newslett
 
 ## 🚀 Github Demo
 
-[View Here](https://yourcode-jd.github.io/AI/)
+[View Here](https://yourcode-jd.github.io/furniture/)
 
 ---
 
